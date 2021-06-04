@@ -15,7 +15,7 @@ const Navbar = () => {
     setChapterShow(!chapterShow);
   };
   return (
-    <div className="bg-black text-white px-10 flex align-center sticky top-0">
+    <div className="bg-black text-white px-10 flex align-center sticky top-0 z-50">
       <ul className="flex align-center justify-center p-4">
         <Link to="/">
           <img

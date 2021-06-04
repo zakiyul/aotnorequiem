@@ -1,8 +1,11 @@
+import Content from "../components/Content";
+import Posters from "./parts/Posters";
+
 const PromoPosters = () => {
   return (
-    <div>
-      <p>Promo posters page</p>
-    </div>
+    <Content title="Promo Posters">
+      <Posters />
+    </Content>
   );
 };
 

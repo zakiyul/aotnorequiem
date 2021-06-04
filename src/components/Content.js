@@ -2,7 +2,10 @@ import styles from "./Content.module.css";
 
 const Content = ({ title, children }) => {
   return (
-    <div className="bg-black px-60 py-7  text-white flex justify-center">
+    <div
+      style={{ backgroundColor: "#1a1a1a" }}
+      className="px-60 py-7  text-white flex justify-center"
+    >
       <div className="">
         <div className="flex justify-center mb-6">
           <hr className={styles.garis} />

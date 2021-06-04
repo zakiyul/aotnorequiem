@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import KotakLampu from "simple-react-lightbox";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <KotakLampu>
+      <App />
+    </KotakLampu>
   </React.StrictMode>,
   document.getElementById("root")
 );

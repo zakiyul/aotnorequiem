@@ -5,6 +5,7 @@ const Footer = () => {
         href="https://twitter.com/zekiul"
         className="mr-10 py-2 px-3 hover:bg-gray-500"
         target="_blank"
+        rel="noreferrer"
       >
         @ZEKIUL
       </a>
@@ -12,6 +13,7 @@ const Footer = () => {
         href="https://www.instagram.com/zzzakiul/"
         className="mr-10 py-2 hover:bg-gray-500 px-3"
         target="_blank"
+        rel="noreferrer"
       >
         @ZZZAKIUL
       </a>
@@ -19,6 +21,7 @@ const Footer = () => {
         href="https://zakiyul.github.io/"
         className="py-2 hover:bg-gray-500 px-3"
         target="_blank"
+        rel="noreferrer"
       >
         ZAKIUL FIKRI
       </a>
