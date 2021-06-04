@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="bg-hero bg-no-repeat w-full bg-center bg-cover flex justify-center text-white align-center p-72">
@@ -7,9 +9,12 @@ const Hero = () => {
           alt="aotrequiem text-logo"
           style={{ width: 576 }}
         />
-        <button className="p-3 bg-red-600 rounded w-60 hover:bg-red-700 mt-12">
+        <Link
+          to="/chapter/aot-no-requiem/1"
+          className="text-center p-3 bg-red-600 rounded w-60 hover:bg-red-700 mt-12"
+        >
           READ NOW
-        </button>
+        </Link>
       </div>
     </div>
   );

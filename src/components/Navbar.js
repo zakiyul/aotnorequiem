@@ -15,7 +15,7 @@ const Navbar = () => {
     setChapterShow(!chapterShow);
   };
   return (
-    <div className="bg-black text-white px-10 flex align-center sticky top-0 z-50">
+    <div className="bg-black text-white px-10 flex align-center justify-between sticky top-0 z-50">
       <ul className="flex align-center justify-center p-4">
         <Link to="/">
           <img
@@ -125,6 +125,14 @@ const Navbar = () => {
           </div>
         </li>
       </ul>
+      <div className="flex align-center p-4">
+        <Link
+          to="/chapter/aot-no-requiem/1"
+          className="text-center p-3 bg-red-600 rounded w-30 hover:bg-red-700"
+        >
+          READ NOW!
+        </Link>
+      </div>
     </div>
   );
 };
